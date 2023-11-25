@@ -53,3 +53,35 @@ body {
     padding-bottom: 10px;
 }
 
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.rating label:before {
+    content: '★';
+    padding: 1px;
+    color: #777777;
+}
+
+.rating input:checked ~ label:before {
+    color: #ffdd00;
+}
+
+#valoracion{
+
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+
+}
