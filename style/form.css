@@ -70,7 +70,7 @@ body {
 
 .rating label:before {
     content: '★';
-    padding: 1px;
+    padding: px;
     color: #777777;
 }
 
